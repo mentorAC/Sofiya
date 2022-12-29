@@ -1,0 +1,66 @@
+﻿<Window x:Class="Les16WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Les16WPF"
+        mc:Ignorable="d"
+        Title="First les" Height="450" Width="800">
+    
+    <!--СОЗДАНИЕ ГРИДА-->
+    <Grid ShowGridLines="True">
+        <!--   <name/>        -->
+        <!--   <name></name>  -->
+        
+        <!--СОЗДАНИЕ СТРОК-->
+        <Grid.RowDefinitions>
+            <!--Height="Auto" - подбор с учетом того что внутри-->
+            <!--px - pixel-->
+            <!--in - дюйм-->
+            <!--cm-->
+            <!--pt - point-->
+            <!--Ctrl + K + C-->
+
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="1.5*"/>
+            <!--<RowDefinition Height="150"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="200"/>-->
+        </Grid.RowDefinitions>
+        <!--СОЗДАНИЕ КОЛОНОК-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <!--<Button Background="#fcba03" 
+                Grid.Column="1" Grid.Row="2"/>
+
+        <Button Background="#62fc03"
+                Grid.Row="1" Grid.Column="0"
+                Grid.ColumnSpan="2"/>-->
+
+        <!--СОЗДАНИЕ КНОПОК-->
+        <Button Background="Cyan" 
+                Grid.Column="0"
+                Grid.Row="0"
+                Grid.RowSpan="2"/>
+        <Button Background="DeepPink" 
+                Grid.Column="0"
+                Grid.Row="1"
+                Grid.ColumnSpan="3"/>
+        <Button Background="#03e8fc"
+                Grid.Column="1"
+                Grid.Row="2"/>
+        <Button Background="#8c03fc"
+                Grid.Column="2"
+                Content="Text"
+                FontSize="40"
+                Click="Button_Click"/>
+                
+
+
+    </Grid>
+</Window>

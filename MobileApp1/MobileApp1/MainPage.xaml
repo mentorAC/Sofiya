@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp1.MainPage">
+
+    <!--<Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.25*" />
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0.25*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.25*"/>
+        </Grid.RowDefinitions>
+
+        <Frame BackgroundColor="Coral"  Grid.Column="0" Grid.RowSpan="2"/>
+        <Frame BackgroundColor="Azure" Grid.Column="1"/>
+        <Frame BackgroundColor="Coral"  Grid.Column="2" Grid.RowSpan="2"/>
+        <Frame BackgroundColor="Beige"  Grid.Row="1"
+               Grid.Column="1"/>
+    </Grid>-->
+    <StackLayout>
+        <Label Text="label 1"
+               FontSize="30"
+               HorizontalTextAlignment="Center"/>
+
+        <Entry Placeholder="Typint something"
+               HorizontalTextAlignment="Center"
+               Margin="20,0,20,0"/>
+
+    </StackLayout>
+</ContentPage>

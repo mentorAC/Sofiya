@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp2.MainPage"
+             Padding="20">
+
+    <!--<ScrollView>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0" HeightRequest="100">
+                <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Frame BackgroundColor="Azure" CornerRadius="0" HeightRequest="100"/>
+            <Frame BackgroundColor="Bisque" CornerRadius="0" HeightRequest="100"/>
+            <Frame BackgroundColor="Gray" CornerRadius="0" HeightRequest="100"/>
+            <Frame BackgroundColor="Gold" CornerRadius="0" HeightRequest="100"/>
+            <Frame BackgroundColor="DarkRed" CornerRadius="0" HeightRequest="100"/>
+            <Frame BackgroundColor="DarkSeaGreen" CornerRadius="0" HeightRequest="100"/>
+            <Frame BackgroundColor="DarkSalmon" CornerRadius="0" HeightRequest="100"/>
+            <Frame BackgroundColor="DarkOliveGreen" CornerRadius="0" HeightRequest="100"/>
+            <Frame BackgroundColor="Green" CornerRadius="0" HeightRequest="100"/>
+            <Frame BackgroundColor="Magenta" CornerRadius="0" HeightRequest="100"/>
+
+        </StackLayout>
+    </ScrollView>-->
+    <!--<StackLayout BackgroundColor="Gray">
+        <BoxView Color="Green" Margin="20"/>
+        <BoxView Color="Blue" Margin="10,15"/>
+        <BoxView Color="Red " Margin="0, 20, 15, 5"/>
+    </StackLayout>-->
+    <!--<Grid RowDefinitions="50,*, *">
+        --><!--<Entry Grid.Row="0"/>-->
+        <!-- Hello 
+             world
+             !!!-->
+    <!--
+        <Label Text="hello\nworld\n!!!">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Hello" FontSize="Large"/>
+                    <Span Text="WORLD" FontAttributes="Bold"/>
+                    <Span Text="!!!" TextColor="Red"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Editor x:Name="editor"
+                Grid.Row="1"/>
+        <Button Text="+" 
+                FontSize="50"
+                Clicked="Button_Clicked"
+                Grid.Row="2"/>
+    </Grid>-->
+    <StackLayout>
+        <Frame BorderColor="Gray"
+               BackgroundColor="#e1e1e1"
+               CornerRadius="10">
+
+            <Label Text="TEXT TEXT TEX"
+                   HorizontalOptions="Center"/>
+        </Frame>
+    </StackLayout>
+</ContentPage>
