@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp3.MainPage">
+
+    <!--<Grid RowDefinitions="200, 300, 200">
+        <Image Grid.Row ="0"
+               x:Name="image1"
+               Aspect="AspectFill"/>
+        <Image Grid.Row ="1"
+               x:Name="image2"
+               Aspect="Fill"/>
+        <Image Grid.Row ="2"
+               x:Name="image3"
+               Aspect="AspectFit"/>
+    </Grid>-->
+    <StackLayout>
+        <!--<DatePicker DateSelected="DatePicker_DateSelected"
+                    x:Name="datePicker"
+            MinimumDate="1/1/2023"
+                    MaximumDate="12/31/2023"
+                    Date="1/1/2023"
+                    Format="dd.MM.yyyy HH:mm:ss"/>
+        <TimePicker x:Name="timePicker"
+            PropertyChanged="TimePicker_PropertyChanged"    
+            Time="20:00:1"
+                    Format="HH:mm:ss tt"/>
+        <Label x:Name="label"/>-->
+        <Entry x:Name="enteredItem"
+            FontSize="20"/>
+        <Button Clicked="Button_Clicked"
+            Text="Add Item"
+                FontSize="20"
+                BackgroundColor="Pink"
+                TextColor="DarkBlue"
+                CornerRadius="15"
+                Margin="30,0,30,0"/>
+
+        <Picker x:Name="picker"
+              SelectedIndexChanged="picker_SelectedIndexChanged"
+                Title="Make choice!"/>
+
+        <Label x:Name="label"
+               FontSize="20"/>
+    </StackLayout>
+
+</ContentPage>

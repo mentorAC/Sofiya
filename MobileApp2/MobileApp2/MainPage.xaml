@@ -49,7 +49,7 @@
                 Clicked="Button_Clicked"
                 Grid.Row="2"/>
     </Grid>-->
-    <StackLayout>
+    <!--<StackLayout>
         <Frame BorderColor="Gray"
                BackgroundColor="#e1e1e1"
                CornerRadius="10">
@@ -57,5 +57,62 @@
             <Label Text="TEXT TEXT TEX"
                    HorizontalOptions="Center"/>
         </Frame>
+    </StackLayout>-->
+
+    <!--<StackLayout>
+        -->
+    <!--<BoxView Color="LightBlue"
+                 HeightRequest="150"
+                 WidthRequest="150"
+                 CornerRadius="10"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center"/>--><!--
+
+        <Frame WidthRequest="300"
+                 HeightRequest="150"
+                 BackgroundColor="Yellow"
+                 CornerRadius="10"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center">
+            <StackLayout>
+                <Label Text="Xamarin"
+                       FontSize="20"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                <BoxView BackgroundColor="Orange"
+                         HeightRequest="2"
+                         WidthRequest="250"/>
+                <BoxView BackgroundColor="Purple"   
+                         HeightRequest="2"
+                         WidthRequest="250"/>
+                <Label Text="box view test"
+                       FontSize="30"
+                       TextColor="DarkBlue"
+                       HorizontalOptions="Center"/>
+            </StackLayout>
+        </Frame>
+
+    </StackLayout>-->
+
+
+    <StackLayout>
+        <Image Source="pic.png"/>
+        <Entry x:Name="entry"
+            FontSize="15"
+               
+               HorizontalOptions="Fill"
+               VerticalOptions="Center"
+               />
+        <Button Clicked="Button_Clicked_1"
+            BackgroundColor="Cyan"
+                Text="Show the picture"
+                FontSize="15"
+                TextColor="Red"/>
+        <Image x:Name="image"
+               HorizontalOptions="Fill"
+               VerticalOptions="FillAndExpand"/>
     </StackLayout>
+    
+    
+    
 </ContentPage>

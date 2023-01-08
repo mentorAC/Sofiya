@@ -20,5 +20,13 @@ namespace MobileApp2
             //++editor.FontSize;
             //editor.FontAttributes = FontAttributes.Bold;
         }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            image.Source = new UriImageSource()
+            {
+                Uri = new Uri(entry.Text)
+            };
+        }
     }
 }
