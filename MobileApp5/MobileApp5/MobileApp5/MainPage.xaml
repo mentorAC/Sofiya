@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp5.MainPage">
+
+    <StackLayout>
+        <!--<Button Clicked="Shake_Clicked"
+                x:Name="bShake"
+                Text="Shake"
+                BackgroundColor="Red"
+                FontSize="20"
+                CornerRadius="15"/>
+        <Button Text="X movement"
+                BackgroundColor="Blue"
+                FontSize="20"
+                TextColor="Wheat"
+                CornerRadius="15"
+                x:Name="xMovement"
+                Clicked="xMovement_Clicked"/>
+        <Button Text="Y movement"
+                BackgroundColor="Green"
+                FontSize="20"             
+                CornerRadius="15"
+                x:Name="yMovement"
+                Clicked="yMovement_Clicked"/>
+        <Button Text="Smaller"
+                BackgroundColor="MediumPurple"
+                FontSize="20"              
+                CornerRadius="15"
+                x:Name="smaller"
+                Clicked="smaller_Clicked"/>
+        <Button Text="Bigger"
+                BackgroundColor="Yellow"
+                FontSize="20"              
+                CornerRadius="15"
+                x:Name="bigger"
+                Clicked="bigger_Clicked"/>
+        <Button Text="rotation"
+                BackgroundColor="Orange"
+                FontSize="20"              
+                CornerRadius="15"
+                x:Name="rotation"
+                Clicked="rotation_Clicked"/>
+
+        <Button Text="MIX"
+                BackgroundColor="Orange"
+                FontSize="20"              
+                CornerRadius="15"
+                x:Name="bMix"
+                Clicked="bMix_Clicked"/>-->
+        
+       
+        <!-- ########################-->
+        <!--<Button 
+                x:Name="bNormal"
+                Text="Normal"
+                Clicked="bNormal_Clicked"
+                BackgroundColor="Red"
+                FontSize="20"
+                CornerRadius="15"
+                WidthRequest="150"
+                HorizontalOptions="Start"/>
+        <Button x:Name="bBounceIn"
+                Text="BounceIn"
+                Clicked="bBounceIn_Clicked"
+                WidthRequest="150"
+                HorizontalOptions="Start"
+                BackgroundColor="Blue"
+                FontSize="20"
+                TextColor="Wheat"
+                CornerRadius="15"
+                
+                />
+        <Button Text="BounceOut"
+                BackgroundColor="Green"
+                FontSize="20"             
+                CornerRadius="15"
+                WidthRequest="150"
+                HorizontalOptions="Start"
+                x:Name="bBounceOut"
+                Clicked="bBounceOut_Clicked"
+                />
+        
+        <Button Text="CubicIn"
+                BackgroundColor="MediumPurple"
+                FontSize="20"              
+                CornerRadius="15"
+                x:Name="bCubicIn"
+                Clicked="bCubicIn_Clicked"
+                HorizontalOptions="Start"
+                />
+        <Button Text="CubicOut"
+                BackgroundColor="Yellow"
+                FontSize="20"              
+                CornerRadius="15"
+                x:Name="bCubicOut"
+                HorizontalOptions="Start"
+                Clicked="bCubicOut_Clicked"
+                />
+        
+        <Button Text="CubicInOut"
+                BackgroundColor="Orange"
+                FontSize="20"              
+                CornerRadius="15"
+                x:Name="bCubicInOut"
+                HorizontalOptions="Start"
+                Clicked="bCubicInOut_Clicked"
+                />
+
+        <Button Text="SinIn"
+                BackgroundColor="PeachPuff"
+                FontSize="20"              
+                CornerRadius="15"
+                x:Name="bSinIn"
+                HorizontalOptions="Start"
+                Clicked="bSinIn_Clicked"
+                />
+        <Button Text="SinOut"
+                BackgroundColor="LightCoral"
+                FontSize="20"              
+                CornerRadius="15"
+                x:Name="bSinOut"
+                HorizontalOptions="Start"
+                Clicked="bSinOut_Clicked"
+                />
+        <Button Text="SinInOut"
+                BackgroundColor="RosyBrown"
+                FontSize="20"              
+                CornerRadius="15"
+                x:Name="bSinInOut"
+                Clicked="bSinInOut_Clicked"
+                HorizontalOptions="Start"
+                />
+        <Button Text="SpringIn"
+                BackgroundColor="Red"
+                FontSize="20"              
+                CornerRadius="15"
+                x:Name="bSpringIn"
+                HorizontalOptions="Start"
+                Clicked="bSpringIn_Clicked"
+                />
+        <Button Text="SpringOut"
+                BackgroundColor="Orange"
+                FontSize="20"              
+                CornerRadius="15"
+                x:Name="bSpringOut"
+                Clicked="bSpringOut_Clicked"
+                HorizontalOptions="Start"
+                />-->
+
+        <!--<Image Source="dish2.jpg"
+               HeightRequest="150"
+               WidthRequest="300"
+               Aspect="AspectFill"
+               x:Name="img"/>
+
+        <Button Text="Start"
+                Clicked="Button_Clicked"/>-->
+        
+        <!-- WebView-->
+        <!--вверхнее поле для ввода ссылки и нажатия на кнопку-->
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Go"
+                    Clicked="Button_Clicked"/>
+            <Button Text="My"
+                    Clicked="Button_Clicked_1"/>
+            <Entry x:Name="url"
+                   HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+
+        <WebView x:Name="webView"
+                 VerticalOptions="FillAndExpand"
+                 Source="https://devblogs.microsoft.com/xamarin/"/>
+
+    </StackLayout>
+
+</ContentPage>

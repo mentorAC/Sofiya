@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp4.MainPage">
+
+    <StackLayout>
+        <Image Source="dish1.jpg"
+               x:Name="image"
+               VerticalOptions="CenterAndExpand"/>
+        <Slider Minimum="0"
+                Maximum="360"
+                VerticalOptions="End"
+                ValueChanged="Slider_ValueChanged"/>
+        <Button Text="Start"
+                FontSize="20"
+                BackgroundColor="Aqua"
+                Clicked="Button_Clicked_start"/>
+        <Button Text="Finish animation"
+                FontSize="20"
+                BackgroundColor="Coral"
+                Clicked="Button_Clicked_end"/>
+    </StackLayout>
+
+</ContentPage>
